@@ -1,0 +1,11 @@
+log_entry,log_level
+17/03/29 10:11:19 INFO executor.Executor: Finished task 14.0 in stage 6.0 (TID 114). 2271 bytes result sent to driver,INFO
+17/03/29 10:03:56 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-28:46646],INFO
+"17/03/29 10:05:01 INFO storage.MemoryStore: Block broadcast_9 stored as values in memory (estimated size 12.0 KB, free 45.3 MB)",INFO
+17/03/29 10:05:01 INFO executor.Executor: Finished task 20.0 in stage 7.0 (TID 141). 1197 bytes result sent to driver,INFO
+"17/03/29 10:04:57 INFO spark.CacheManager: Partition rdd_9_13 not found, computing it",INFO
+"17/03/29 10:11:13 INFO python.PythonRunner: Times: total = 2323, boot = 1195, init = 55, finish = 1073",INFO
+"17/03/29 10:04:44 INFO ExecutorRunnable: Prepared Local resources Map(__spark__.jar -> resource { scheme: \"hdfs\" host: \"10.10.34.11\" port: 9000 file: \"/user/curi/.sparkStaging/application_1485248649253_0052/spark-assembly-1.6.0-hadoop2.2.0.jar\" } size: 109525492 timestamp: 1490752985359 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: \"hdfs\" host: \"10.10.34.11\" port: 9000 file: \"/user/curi/.sparkStaging/application_1485248649253_0052/pyspark.zip\" } size: 355358 timestamp: 1490752985422 type: FILE visibility: PRIVATE, py4j-0.9-src.zip -> resource { scheme: \"hdfs\" host: \"10.10.34.11\" port: 9000 file: \"/user/curi/.sparkStaging/application_1485248649253_0052/py4j-0.9-src.zip\" } size: 44846 timestamp: 1490752985439 type: FILE visibility: PRIVATE)",INFO
+17/03/29 10:04:57 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 42,INFO
+"17/03/29 10:04:58 INFO spark.SecurityManager: Changing view acls to: yarn,curi",INFO
+17/03/29 10:03:23 INFO executor.Executor: Running task 19.0 in stage 4.0 (TID 80),INFO
