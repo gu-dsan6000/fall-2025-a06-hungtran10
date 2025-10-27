@@ -184,11 +184,11 @@ This variation are partially due to my runnning and debugging the code in the de
 
 ## 5. Explanation of Visualizations (Problem 2)
 
-### Bar Chart — `problem2_bar_chart.png`
+### Bar Chart
 
 - According to the bar chart, cluster 1485248649253 dominates with 181 applications, while the other five clusters have 8, 2, 1, 1, 1 applications respectively. The workload is heavily concentrated on a single cluster (181 apps), with a long tail of lightly used clusters. This informs where we should focus performance or cost optimization work (e.g., the busy cluster’s storage locality, caching, or shuffle tuning). However, the bar chart counts applications, not work. A cluster with fewer applications could still have longer or heavier jobs.
 
-### Density Plot — `problem2_density_plot.png`
+### Density Plot
 
 - This plot visualizes the number of jobs in bins according to their duration.
 
